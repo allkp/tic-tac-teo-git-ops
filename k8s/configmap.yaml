@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: tic-tac-teo
+data:
+  SERVER_PORT: "8080"
+  SPRING_APPLICATION_NAME: tic-tac-teo-backend
